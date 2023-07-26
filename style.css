@@ -71,6 +71,11 @@ header.shadow {
     font-weight: 600;
     color: crimson;
 }
+#icon{
+    width:30px;
+    cursor:pointer;
+
+}
 .navbar {
     display: flex;
 }
@@ -89,7 +94,7 @@ header.shadow {
     z-index: 10001;
     display: none;
 }
-.darkmode {
+#darkmode {
     padding-left: 5px;
     padding-top: 5px;
     font-size: 1.4rem;
@@ -112,18 +117,19 @@ header.shadow {
      align-content: space-around;
 }
 .home-text span {
-    font-size: var(--medium-font);
-    font-weight: 500;
+    font-size: var(--big-font);
+    font-weight: 800;
+    color: #01125ecf;
 }
 .home-text h1 {
     font-size: var(--big-font);
 }
-.home-text h2 {
+.home-text auto-type {
     font-size: 1.1rem;
     font-weight: 400;
 }
-.home-text p {
-    font-size: var(--p-font);
+.home-text auto-type {
+    font-size:larger;
     font-weight: 400;
     margin: 0.7rem 0 1rem;
 }
@@ -245,7 +251,7 @@ header.shadow {
 }
 .services-box {
     padding: 20px;
-    /* width: 260px; */
+    /* width: 260px;  */
     display: flex;
     flex-direction: column;
     align-items: center;
